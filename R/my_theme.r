@@ -1,3 +1,13 @@
+#' Adds my personal theme to ggplot
+#'
+#' @param 
+#'
+#' @return Themes to be added to ggplot
+#' @export
+#'
+#' @examples
+#' + my_theme()
+
 my_theme <- function() {
   
   add_on <- theme_dark() +
